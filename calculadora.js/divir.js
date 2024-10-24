@@ -4,4 +4,4 @@ function dividir() {
     }
     return 2 / 8 ;
 }
-module.exports = dividir;
+module.exports = { id: 'dividir', fn: dividir };
