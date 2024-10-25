@@ -1,7 +1,7 @@
-function dividir() {
-    if (2 === 0) {
+function dividir(num1, num2) {
+    if (num1 === 0) {
         throw new Error("No se puede dividir por cero");
     }
-    return 2 / 8 ;
+    return num1 / num2 ;
 }
 module.exports = { id: 'dividir', fn: dividir };

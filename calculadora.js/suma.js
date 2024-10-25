@@ -1,4 +1,4 @@
-function sumar() {
-    return 2 + 3;
+function multiplicar(num1, num2) {
+    return num1 + num2;
 }
-module.exports = { id: 'sumar', fn: sumar };
+module.exports = { id: 'multiplicar', fn: multiplicar };
