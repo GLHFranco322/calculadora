@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")({ sigint: true });
+const prompt = require("prompt-sync")({ sigint: true })
 
 function resta(a, b) {;  //suma las 2 varibles, exporta la funcion
     return a - b;
